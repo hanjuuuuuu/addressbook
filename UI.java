@@ -68,7 +68,7 @@ public class UI {
 						System.out.print("이름을 입력하세요. : ");
 						name = scan.nextLine();
 						if(ad.checkName(name)==true) {
-							System.out.println("이미 등록된 이름입니다. 이름 뒤에 숫자를 붙여 저장하세요. (ex:김덕선1, 김덕선2 ,김덕선3)");
+							System.out.println("이미 등록된 이름입니다. 이름 뒤에 숫자를 붙여 저장하세요. (ex:김한주1, 김한주2 ,김한주3)");
 						}
 						else break;
 						}while(true);
